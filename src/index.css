@@ -73,4 +73,19 @@
   font-weight: 700;
   color: #5b50ef;
   font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.contenedor .contenedor-card .opciones-meses {
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    
+}
+
+.contenedor .contenedor-card .opciones-meses option {
+  transition: all .3s ease;
 }

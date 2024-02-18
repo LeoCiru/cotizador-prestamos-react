@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { formatearDinero } from "../helpers"
 
 function ControlMonto({cantidad, setCantidad}) {
@@ -25,7 +26,6 @@ function ControlMonto({cantidad, setCantidad}) {
             setCantidad(20000)
             alert("La cantidad máxima es 20,000.")
         }
-
     }
 
 

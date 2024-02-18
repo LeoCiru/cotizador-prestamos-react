@@ -1,9 +1,11 @@
 import ControlMonto from "./components/ControlMonto"
 import Header from "./components/Header"
+import SelectMeses from "./components/SelectMeses"
 import { useState } from "react"
 
 function App() {
   const [cantidad, setCantidad] = useState(10000)
+  const [meses, setMeses] = useState(6)
 
   return (
     <div className="contenedor">
@@ -12,6 +14,11 @@ function App() {
         <ControlMonto
           cantidad = {cantidad}
           setCantidad = {setCantidad}
+        />
+
+        <SelectMeses
+          meses = {meses}
+          setMeses = {setMeses}
         />
 
       </div>
