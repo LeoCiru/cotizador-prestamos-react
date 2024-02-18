@@ -1,9 +1,11 @@
+import { formatearDinero } from "../helpers"
+
 function ControlMonto({cantidad, setCantidad}) {
 
     const MIN = 0, MAX = 20000, STEP = 100;
 
     function handleChangeRange(e) {
-        setCantidad(e.target.value);
+        setCantidad(parseInt(e.target.value));
     }
 
 
@@ -54,7 +56,7 @@ function ControlMonto({cantidad, setCantidad}) {
             />
         </div>
 
-        <p className="monto">{cantidad}</p>
+        <h2 className="monto">{formatearDinero(cantidad)}</h2>
         </>
     )
 }
