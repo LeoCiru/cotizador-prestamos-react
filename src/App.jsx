@@ -1,6 +1,7 @@
 import ControlMonto from "./components/ControlMonto"
 import Header from "./components/Header"
 import SelectMeses from "./components/SelectMeses"
+import ResumenPagos from "./components/ResumenPagos"
 import { useState } from "react"
 
 function App() {
@@ -19,6 +20,11 @@ function App() {
         <SelectMeses
           meses = {meses}
           setMeses = {setMeses}
+        />
+
+        <ResumenPagos
+          meses = {meses}
+          cantidad = {cantidad}
         />
 
       </div>

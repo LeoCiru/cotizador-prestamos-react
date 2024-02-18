@@ -83,9 +83,17 @@
     cursor: pointer;
     outline: none;
     font-size: 1rem;
-    
+    margin-bottom: 30px;
 }
 
-.contenedor .contenedor-card .opciones-meses option {
-  transition: all .3s ease;
+.contenedor .contenedor-card .resumen-box {
+  background-color: #f3f1f1;
+  padding: 10px;
+}
+
+.contenedor .contenedor-card .resumen-box span { color: #5b50ef; }
+
+.contenedor .contenedor-card .resumen-box p {
+  font-weight: 700;
+  color: #646262;
 }
