@@ -15,7 +15,7 @@ function ControlMonto({cantidad, setCantidad}) {
 
         if (cantidad <= MIN) {
             setCantidad(0)
-            alert("La cantidad mínima es cero.")
+            alert("La cantidad mínima es 0.")
         }
     }
 

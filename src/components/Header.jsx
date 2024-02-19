@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <h1>¿Cuanto <span>dinero</span> necesitas?</h1>
+        <h1>¿Cuánto <span>dinero</span> necesitas?</h1>
     )
 }
 
